@@ -1,0 +1,21 @@
+-- Проблема 1)
+-- Возникло исключение: KeyError
+-- 'normal'
+--   File "C:\Users\HyperPC\Documents\GitHub\Tank-Terminal\Tank-1.py", line 164, in _get_initial_health
+--     return {
+--            ^
+--   File "C:\Users\HyperPC\Documents\GitHub\Tank-Terminal\Tank-1.py", line 155, in __init__
+--     self.health = self._get_initial_health()
+--                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+--   File "C:\Users\HyperPC\Documents\GitHub\Tank-Terminal\Tank-1.py", line 296, in __init__
+--     super().__init__(x, y, tank_type)
+--   File "C:\Users\HyperPC\Documents\GitHub\Tank-Terminal\Tank-1.py", line 500, in _spawn_tank
+--     new_tank = EnemyTank(*spawn_point, tank_data["type"])
+--                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--   File "C:\Users\HyperPC\Documents\GitHub\Tank-Terminal\Tank-1.py", line 466, in update
+--     self._spawn_tank()
+--   File "C:\Users\HyperPC\Documents\GitHub\Tank-Terminal\Tank-1.py", line 807, in main
+--     game_map.update(current_time)
+--   File "C:\Users\HyperPC\Documents\GitHub\Tank-Terminal\Tank-1.py", line 846, in <module>
+--     curses.wrapper(main)
+-- KeyError: 'normal'
